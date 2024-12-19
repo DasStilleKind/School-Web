@@ -1,0 +1,48 @@
+/* Section Styling */
+.extra-content {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.extra-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Video Container Styling */
+.video-container {
+    margin-bottom: 30px;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-link {
+    display: inline-block;
+    background-color: #ffba08;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #faa307;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #00b4d8;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

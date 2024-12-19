@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Navigation Styles */
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    margin: 0;
+    border-bottom: 3px solid #00b4d8;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    background-color: #00b4d8;
+    border-radius: 5px;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    flex-direction: column; /* Stellt sicher, dass die Inhalte vertikal angeordnet sind */
+    justify-content: center; /* Zentriert den Inhalt vertikal */
+    align-items: center; /* Zentriert den Inhalt horizontal */
+    background-color: #0077b6;
+    color: white;
+    padding: 50px 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Text zentrieren */
+}
+
+.intro-content {
+    max-width: 600px;
+    width: 100%; /* Breite anpassen, damit der Textbereich richtig skaliert */
+    margin-bottom: 30px; /* Abstand nach unten */
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.intro .btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.intro .btn:hover {
+    background-color: #005f73;
+}
+
+/* Image Styles */
+.intro-image {
+    width: 100%;
+    max-width: 600px; /* Bildgröße anpassen */
+    margin-top: 20px; /* Abstand zwischen Button und Bild */
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Bild passt sich dem Container an */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Floating Bolt Button */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #05d1ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.floating-btn:hover {
+    background-color: #faa307;
+}
+
+.floating-btn i {
+    color: white;
+}
