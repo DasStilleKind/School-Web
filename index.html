@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schulseiten</title>
+    <style>
+        /* GitHub Dark Mode-inspirierter Stil */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1117; /* Dunkles Grau */
+            color: #c9d1d9; /* Hellgrauer Text */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Vollbildhöhe */
+        }
+
+        .container {
+            text-align: center;
+            background-color: #161b22; /* Etwas helleres Schwarz */
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Leichter Schatten */
+            max-width: 600px; /* Maximale Breite */
+            width: 100%; /* Responsiv */
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #58a6ff; /* GitHub Blau für Titel */
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 Spalten */
+            gap: 15px; /* Abstand zwischen den Knöpfen */
+        }
+
+        .button-grid button {
+            font-size: 1rem;
+            padding: 15px;
+            color: #c9d1d9; /* Hellgrauer Text */
+            background-color: #21262d; /* Dunkelgrauer Button-Hintergrund */
+            border: 1px solid #30363d; /* Leicht hellere Umrandung */
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+            width: 100%; /* Knöpfe nehmen volle Breite ein */
+        }
+
+        .button-grid button:hover {
+            background-color: #30363d; /* Helleres Grau beim Hover */
+            border-color: #58a6ff; /* GitHub Blau beim Hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Schulseiten</h1>
+        <div class="button-grid">
+            <button onclick="window.location.href='https://seite1.de'">Zur Seite 1</button>
+            <button onclick="window.location.href='https://seite2.de'">Zur Seite 2</button>
+            <button onclick="window.location.href='https://seite3.de'">Zur Seite 3</button>
+            <button onclick="window.location.href='https://seite4.de'">Zur Seite 4</button>
+            <button onclick="window.location.href='https://seite5.de'">Zur Seite 5</button>
+            <button onclick="window.location.href='https://seite6.de'">Zur Seite 6</button>
+            <button onclick="window.location.href='https://seite7.de'">Zur Seite 7</button>
+            <button onclick="window.location.href='https://seite8.de'">Zur Seite 8</button>
+        </div>
+    </div>
+</body>
+</html>
